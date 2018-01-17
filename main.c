@@ -12,7 +12,8 @@ int main()
 	memset(pstr, 0, 1024);
 
 	free(pstr);
-	
+
+	printf("the pointer value of pstr is :%p\n", pstr);	
 
 	return 0;
 }
